@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Redline Studio BD logo</title>
+  <desc id="desc">A stylized red R mark inside a dark circular badge.</desc>
+  <defs>
+    <linearGradient id="red" x1="95" y1="74" x2="421" y2="423" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4C5F"/>
+      <stop offset="0.42" stop-color="#FF233C"/>
+      <stop offset="1" stop-color="#940C20"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="72" y1="78" x2="438" y2="447" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF263D"/>
+      <stop offset="0.55" stop-color="#0D1425"/>
+      <stop offset="1" stop-color="#178BFF"/>
+    </linearGradient>
+    <filter id="shadow" x="36" y="36" width="440" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000000" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#FF263D" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="210" fill="#090E1B" stroke="url(#rim)" stroke-width="18" filter="url(#shadow)"/>
+  <path d="M144 136H348C394 136 416 167 398 206C386 233 358 251 324 256L396 376H316L250 262H214L172 376H94L144 136Z" fill="url(#red)"/>
+  <path d="M205 198H325C338 198 345 205 341 216C337 226 326 232 311 232H197L205 198Z" fill="#0B1020" fill-opacity="0.88"/>
+  <path d="M225 262H308L246 324H194L225 262Z" fill="#11182A" fill-opacity="0.9"/>
+  <path d="M144 136H348C394 136 416 167 398 206C386 233 358 251 324 256L396 376H316L250 262H214L172 376H94L144 136Z" stroke="rgba(255,255,255,0.24)" stroke-width="6"/>
+</svg>

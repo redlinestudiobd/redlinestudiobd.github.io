@@ -1,0 +1,61 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Road Fight artwork</title>
+  <desc id="desc">Dark racing themed card with Road Fight text, motorcycle silhouette, and sparks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#100711"/>
+      <stop offset="0.45" stop-color="#16172D"/>
+      <stop offset="1" stop-color="#061426"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="350" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101829"/>
+      <stop offset="1" stop-color="#05080F"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE07A"/>
+      <stop offset="0.42" stop-color="#FF7C1C"/>
+      <stop offset="1" stop-color="#D01424"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8BE5FF"/>
+      <stop offset="1" stop-color="#177DFF"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)"/>
+  <path d="M0 350C190 300 372 302 531 356C669 403 787 406 900 362V520H0V350Z" fill="url(#road)"/>
+  <g opacity="0.45">
+    <path d="M-16 400L320 352" stroke="#FF3C31" stroke-width="6"/>
+    <path d="M489 368L924 296" stroke="#178BFF" stroke-width="5"/>
+    <path d="M-12 158L260 236" stroke="#FF3C31" stroke-width="3"/>
+    <path d="M594 88L922 32" stroke="#178BFF" stroke-width="3"/>
+  </g>
+  <g transform="translate(507 134)">
+    <ellipse cx="185" cy="222" rx="142" ry="22" fill="#000" opacity="0.5" filter="url(#blur)"/>
+    <circle cx="86" cy="207" r="56" fill="#060913" stroke="#65718A" stroke-width="18"/>
+    <circle cx="274" cy="207" r="56" fill="#060913" stroke="#65718A" stroke-width="18"/>
+    <path d="M84 200L154 120H244L282 202M154 120L205 205M142 170H262" stroke="#111A2B" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M84 200L154 120H244L282 202M154 120L205 205M142 170H262" stroke="url(#blue)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M132 104C205 66 285 80 342 128C292 125 247 135 198 154C166 166 126 161 88 142C95 128 110 116 132 104Z" fill="#10182A" stroke="#2E8FFF" stroke-width="6"/>
+    <path d="M263 108L345 134L378 162L282 150L235 142L263 108Z" fill="url(#blue)" opacity="0.95"/>
+    <path d="M378 162C414 162 455 176 506 207C450 200 399 197 346 190L378 162Z" fill="#0D1425" stroke="#FF7C1C" stroke-width="5"/>
+    <circle cx="249" cy="57" r="31" fill="#10182A" stroke="#9CB4CE" stroke-width="6"/>
+    <path d="M222 33C243 11 278 25 282 56C263 48 244 44 222 33Z" fill="#5FCBFF" opacity="0.85"/>
+  </g>
+  <g transform="translate(78 128)">
+    <text x="0" y="91" font-family="Arial Black, Impact, sans-serif" font-size="86" font-weight="900" fill="#F7F8FB" stroke="#141824" stroke-width="8" paint-order="stroke fill" transform="skewX(-10)">ROAD</text>
+    <text x="0" y="190" font-family="Arial Black, Impact, sans-serif" font-size="98" font-weight="900" fill="url(#fire)" stroke="#330A0F" stroke-width="8" paint-order="stroke fill" transform="skewX(-10)">FIGHT</text>
+    <rect x="5" y="224" width="310" height="8" rx="4" fill="#FF7C1C"/>
+    <text x="0" y="281" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#FFD9BA">High-speed bike combat racer</text>
+  </g>
+  <g opacity="0.8">
+    <path d="M764 348L835 317" stroke="#FFB14E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M788 374L876 356" stroke="#FF5C27" stroke-width="4" stroke-linecap="round"/>
+    <path d="M732 321L798 279" stroke="#FFE07A" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="810" cy="311" r="5" fill="#FFE07A"/>
+    <circle cx="860" cy="352" r="4" fill="#FF7C1C"/>
+    <circle cx="749" cy="292" r="3" fill="#FFE07A"/>
+  </g>
+</svg>

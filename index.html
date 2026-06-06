@@ -3,186 +3,218 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RedLine Studio BD | Mobile Game Developer</title>
-  <meta name="description" content="RedLine Studio BD is an independent mobile game studio creating fun, polished, and engaging Android games including ICE Crusher and the upcoming Road Fight." />
-  <meta name="theme-color" content="#0b1020" />
-  <meta property="og:title" content="RedLine Studio BD" />
-  <meta property="og:description" content="Independent mobile game studio building polished Android games." />
+  <title>Redline Studio BD — Mobile Game Studio</title>
+  <meta name="description" content="Redline Studio BD is an independent mobile game studio creating polished Android games including Ice Crusher and the upcoming Road Fight." />
+  <meta name="theme-color" content="#0a0f1f" />
+  <meta property="og:title" content="Redline Studio BD" />
+  <meta property="og:description" content="Independent mobile game studio building fun, polished, and engaging Android games." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/road-fight-logo.png" />
-  <link rel="preload" href="assets/road-fight-logo.png" as="image" />
-  <link rel="preload" href="assets/ice-crusher-banner.png" as="image" />
+  <meta property="og:url" content="https://redlinestudiobd.github.io/" />
+  <meta property="og:image" content="https://redlinestudiobd.github.io/assets/images/ice-crusher-gameplay.webp" />
+  <link rel="canonical" href="https://redlinestudiobd.github.io/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="styles.css" as="style" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="site-bg" aria-hidden="true">
-    <span class="orb orb-red"></span>
-    <span class="orb orb-blue"></span>
-    <span class="grid-glow"></span>
-  </div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="RedLine Studio BD Home">
-      <span class="brand-mark">R</span>
-      <span>RedLine Studio BD</span>
-    </a>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Redline Studio BD home">
+        <img src="assets/redline-logo.svg" width="46" height="46" alt="" />
+        <span>Redline Studio BD</span>
+      </a>
 
-    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+      <button class="nav-toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#games">Games</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-      <a class="nav-pill" href="mailto:YOUR_SUPPORT_EMAIL@gmail.com">Contact</a>
-    </nav>
+      <nav class="main-nav" data-nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#studio">Studio</a>
+        <a href="#support">Support</a>
+        <a class="nav-pill" href="mailto:support.redlinestudio@gmail.com">Contact / Support</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="home">
-    <section class="hero section-shell">
-      <div class="hero-copy">
-        <p class="eyebrow">Independent Mobile Game Studio</p>
-        <h1><span>RedLine</span> Studio BD</h1>
-        <p class="hero-text">We build simple, fun, polished, and skill-based Android games for players who enjoy quick challenges and satisfying gameplay.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#games">Explore Games</a>
-          <a class="btn btn-secondary" href="support.html">Contact / Support</a>
+  <main id="main">
+    <section id="home" class="hero section">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Independent Mobile Game Studio</p>
+          <h1><span>Redline</span> Studio BD</h1>
+          <p class="hero-text">We build fast, fun, polished mobile games for Android players — from casual arcade experiences to high-speed racing action.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#games">Explore Games</a>
+            <a class="button secondary" href="mailto:support.redlinestudio@gmail.com">Contact Support</a>
+          </div>
+          <div class="hero-badges" aria-label="Studio highlights">
+            <span>Android focused</span>
+            <span>Player first</span>
+            <span>Skill based</span>
+            <span>More games coming</span>
+          </div>
         </div>
-        <div class="trust-row" aria-label="Studio values">
-          <span>🎮 Fun gameplay</span>
-          <span>⚡ Skill-based</span>
-          <span>🤖 Android focused</span>
-          <span>❤️ Player first</span>
-        </div>
-      </div>
 
-      <div class="hero-art" aria-label="Road Fight upcoming game artwork">
-        <div class="speed-lines"></div>
-        <div class="hero-art-panel">
-          <div class="hero-badge">Upcoming Game</div>
-          <div class="hero-art-copy">
-            <p class="hero-art-kicker">Road Fight</p>
-            <h3>Action racing, combat, and speed in one upcoming title.</h3>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="glow-ring"></div>
+          <div class="logo-orb">
+            <img src="assets/redline-logo.svg" alt="" />
           </div>
-          <div class="hero-logo-wrap">
-            <img src="assets/road-fight-logo.png" alt="Road Fight upcoming game logo" />
-          </div>
-          <p class="hero-art-note">A more polished presentation for your upcoming game brand.</p>
+          <div class="energy-line line-a"></div>
+          <div class="energy-line line-b"></div>
+          <div class="energy-line line-c"></div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section-shell about-grid">
-      <div class="section-heading">
-        <p class="eyebrow">About Studio</p>
-        <h2>Built for players, by passion.</h2>
-      </div>
-      <div class="glass-card about-card">
-        <div class="icon-bubble">👥</div>
-        <div>
-          <h3>Small studio. Focused games.</h3>
-          <p>RedLine Studio BD is an independent mobile game developer focused on creating lightweight, enjoyable, and skill-based games for Android players.</p>
-          <p>Our goal is to deliver polished gameplay, clear progression, exciting challenges, and memorable mobile experiences.</p>
+    <section id="games" class="section games-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Our Games</p>
+          <h2>Released now. More in development.</h2>
+          <p>Redline Studio BD currently has one released Android game and one upcoming high-speed action title.</p>
         </div>
-      </div>
-      <div class="stats-strip" aria-label="Studio highlights">
-        <div><strong>Android</strong><span>Mobile Focused</span></div>
-        <div><strong>Arcade</strong><span>Quick Sessions</span></div>
-        <div><strong>Skill</strong><span>Challenge Driven</span></div>
-      </div>
-    </section>
 
-    <section id="games" class="section-shell games-section">
-      <div class="section-heading center">
-        <p class="eyebrow">Featured Games</p>
-        <h2>Released and upcoming titles</h2>
-        <p>Explore our current release and the next action racing project in development.</p>
-      </div>
-
-      <div class="game-grid">
-        <article class="game-card ice-card">
-          <div class="game-media">
-            <img src="assets/ice-crusher-banner.png" alt="ICE Crusher gameplay banner" />
-            <span class="status-badge released">Released</span>
-          </div>
-          <div class="game-body">
-            <div class="game-title-row">
-              <img class="game-icon" src="assets/ice-crusher-icon.png" alt="ICE Crusher app icon" />
-              <div>
-                <h3>ICE Crusher</h3>
-                <p>Casual arcade puzzle</p>
+        <div class="games-grid">
+          <article class="game-card live-card reveal">
+            <div class="status live">Released</div>
+            <div class="game-art ice-art">
+              <img src="assets/images/ice-crusher-gameplay.webp" alt="Ice Crusher game artwork with ice blocks and crystals" />
+            </div>
+            <div class="game-content">
+              <p class="game-kicker">Casual Arcade</p>
+              <h3>Ice Crusher</h3>
+              <p>A quick, satisfying ice-crushing game made for simple controls, short rounds, and fun mobile play sessions.</p>
+              <div class="meta-row">
+                <span>Android</span>
+                <span>Google Play</span>
+                <span>Free to play</span>
               </div>
+              <a class="store-button" href="https://play.google.com/store/apps/details?id=com.redlinestudio.icecrusher" target="_blank" rel="noopener noreferrer" aria-label="View Ice Crusher on Google Play">
+                <span class="play-icon">▶</span>
+                View on Google Play
+              </a>
             </div>
-            <p>Simple controls, quick rounds, icy visuals, and satisfying ice-crushing gameplay. Play, improve your score, and keep progressing.</p>
-            <div class="game-footer">
-              <a class="btn btn-small btn-ice" href="https://play.google.com/store/apps/details?id=com.redlinestudio.icecrusher" target="_blank" rel="noopener">View on Google Play</a>
-              <span>Rated 3+</span>
-            </div>
-          </div>
-        </article>
+          </article>
 
-        <article class="game-card road-card featured">
-          <div class="game-media road-media">
-            <img src="assets/road-fight-logo.png" alt="Road Fight logo" />
-            <span class="status-badge upcoming">Upcoming</span>
-          </div>
-          <div class="game-body">
-            <div>
+          <article class="game-card coming-card reveal">
+            <div class="status upcoming">Coming Soon</div>
+            <div class="game-art road-art">
+              <img src="assets/images/road-fight-logo.webp" alt="Road Fight game logo with motorcycle rider" />
+            </div>
+            <div class="game-content">
+              <p class="game-kicker">3D Bike Racing</p>
               <h3>Road Fight</h3>
-              <p class="subtitle">High-speed bike combat racer</p>
+              <p>An upcoming high-speed bike combat racer with traffic, rival riders, upgrades, and arcade-style action.</p>
+              <div class="meta-row">
+                <span>Android</span>
+                <span>In development</span>
+                <span>Racing action</span>
+              </div>
+              <a class="store-button disabled" href="#support" aria-label="Road Fight coming soon">
+                Coming Soon
+              </a>
             </div>
-            <p>Road Fight is an upcoming mobile 3D endless bike racing game with speed, traffic, action, and aggressive arcade-style motorcycle combat.</p>
-            <div class="game-footer">
-              <span class="btn btn-small btn-coming">Coming Soon</span>
-              <span>Fast. Furious. Unstoppable.</span>
-            </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section-shell studio-panel">
-      <div class="studio-copy">
-        <p class="eyebrow">Studio Promise</p>
-        <h2>Clean games, clear support, honest updates.</h2>
-        <p>We keep our games easy to start, fun to replay, and respectful to players. For support, feedback, or business inquiries, contact us anytime.</p>
+    <section class="section media-section" aria-labelledby="media-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Game Media</p>
+          <h2 id="media-title">Official game artwork.</h2>
+          <p>Real artwork and logos are now included in the website assets folder, ready for GitHub Pages.</p>
+        </div>
+
+        <div class="media-grid reveal">
+          <figure class="media-tile media-wide">
+            <img src="assets/images/ice-crusher-keyart.webp" alt="Ice Crusher key art showing a crusher breaking ice crystals" />
+            <figcaption>Ice Crusher key art</figcaption>
+          </figure>
+          <figure class="media-tile media-logo-tile">
+            <img src="assets/images/ice-crusher-logo.webp" alt="Ice Crusher official logo" />
+            <figcaption>Ice Crusher logo</figcaption>
+          </figure>
+        </div>
       </div>
-      <div class="support-actions">
-        <a class="contact-tile" href="mailto:YOUR_SUPPORT_EMAIL@gmail.com">
-          <span>✉️</span>
-          <strong>Email Support</strong>
-          <small>YOUR_SUPPORT_EMAIL@gmail.com</small>
-        </a>
-        <a class="contact-tile" href="support.html">
-          <span>🛠️</span>
-          <strong>Support Page</strong>
-          <small>Help, questions, feedback</small>
-        </a>
+    </section>
+
+    <section id="studio" class="section studio-section">
+      <div class="container studio-grid">
+        <div class="studio-copy reveal">
+          <p class="eyebrow">About Studio</p>
+          <h2>Built for players, by passion.</h2>
+          <p>Redline Studio BD is an independent mobile game studio focused on creating lightweight, enjoyable, and polished Android games.</p>
+          <p>Our goal is simple: build games that feel smooth, are easy to start, and stay fun through quick challenges and satisfying gameplay.</p>
+        </div>
+
+        <div class="stats-panel reveal" aria-label="Studio facts">
+          <div>
+            <strong>2</strong>
+            <span>Games</span>
+          </div>
+          <div>
+            <strong>1</strong>
+            <span>Released</span>
+          </div>
+          <div>
+            <strong>1</strong>
+            <span>Coming Soon</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>Mobile focused</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="section support-section">
+      <div class="container support-card reveal">
+        <div>
+          <p class="eyebrow">Support & Contact</p>
+          <h2>Need help or want to contact us?</h2>
+          <p>For player support, feedback, questions, or business inquiries, email us and we will reply as soon as possible.</p>
+        </div>
+        <div class="support-actions">
+          <a class="contact-tile" href="mailto:support.redlinestudio@gmail.com">
+            <span>Email Support</span>
+            <strong>support.redlinestudio@gmail.com</strong>
+          </a>
+          <a class="contact-tile" href="https://play.google.com/store/apps/details?id=com.redlinestudio.icecrusher" target="_blank" rel="noopener noreferrer">
+            <span>Released Game</span>
+            <strong>Ice Crusher on Google Play</strong>
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="brand footer-brand"><span class="brand-mark">R</span><span>RedLine Studio BD</span></div>
-    <p>© <span id="year"></span> RedLine Studio BD. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="#games">Games</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy Policy</a>
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="#home">
+          <img src="assets/redline-logo.svg" width="34" height="34" alt="" />
+          <span>Redline Studio BD</span>
+        </a>
+        <p>© <span data-year></span> Redline Studio BD. All rights reserved.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#games">Games</a>
+        <a href="#studio">Studio</a>
+        <a href="#support">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="app-ads.txt">app-ads.txt</a>
+      </nav>
     </div>
   </footer>
 
-  <script>
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.main-nav');
-    toggle?.addEventListener('click', () => {
-      const open = nav.classList.toggle('is-open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

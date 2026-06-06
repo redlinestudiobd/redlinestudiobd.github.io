@@ -1,0 +1,64 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ice Crusher artwork</title>
+  <desc id="desc">Blue ice themed card with Ice Crusher text and falling blocks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06192C"/>
+      <stop offset="0.52" stop-color="#072E60"/>
+      <stop offset="1" stop-color="#020B18"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E7FAFF"/>
+      <stop offset="0.45" stop-color="#7EDBFF"/>
+      <stop offset="1" stop-color="#1D87D6"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF3A2"/>
+      <stop offset="0.45" stop-color="#FFB323"/>
+      <stop offset="1" stop-color="#E16B00"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.16 0 0 0 0 0.72 0 0 0 0 1 0 0 0 0.75 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="900" height="520" rx="0" fill="url(#bg)"/>
+  <g opacity="0.38">
+    <path d="M73 78L126 38L175 89L130 140L73 78Z" fill="#62CDFF"/>
+    <path d="M790 82L845 53L876 106L816 151L790 82Z" fill="#38BFFF"/>
+    <path d="M670 398L732 343L792 422L719 489L670 398Z" fill="#53C9FF"/>
+    <path d="M27 374L97 321L142 409L66 472L27 374Z" fill="#64D7FF"/>
+  </g>
+  <g opacity="0.22" stroke="#BDEFFF" stroke-width="2">
+    <path d="M0 328C110 285 212 288 302 330C432 392 520 388 650 323C750 273 833 274 900 298"/>
+    <path d="M0 180C118 128 224 132 324 183C428 236 519 239 623 184C736 124 825 124 900 152"/>
+  </g>
+  <g transform="translate(501 128)">
+    <g filter="url(#glow)">
+      <rect x="0" y="0" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4"/>
+      <rect x="82" y="0" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4" opacity="0.9"/>
+      <rect x="164" y="0" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4" opacity="0.75"/>
+      <rect x="82" y="82" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4"/>
+      <rect x="164" y="82" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4"/>
+      <rect x="246" y="82" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4" opacity="0.88"/>
+      <rect x="0" y="164" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4" opacity="0.85"/>
+      <rect x="82" y="164" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4"/>
+      <rect x="164" y="164" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4"/>
+      <rect x="246" y="164" width="70" height="70" rx="10" fill="url(#ice)" stroke="#D7FAFF" stroke-width="4"/>
+    </g>
+  </g>
+  <g transform="translate(86 126)">
+    <text x="0" y="97" font-family="Arial Black, Impact, sans-serif" font-size="96" font-weight="900" fill="#DDFBFF" stroke="#0A75C7" stroke-width="5" paint-order="stroke fill">ICE</text>
+    <text x="0" y="196" font-family="Arial Black, Impact, sans-serif" font-size="92" font-weight="900" fill="url(#gold)" stroke="#612E00" stroke-width="5" paint-order="stroke fill">CRUSHER</text>
+    <rect x="2" y="232" width="278" height="8" rx="4" fill="#78DBFF" opacity="0.84"/>
+    <text x="0" y="286" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#CDEEFF">Quick rounds • Cool effects • Mobile fun</text>
+  </g>
+  <g opacity="0.45">
+    <circle cx="204" cy="70" r="5" fill="#D9F9FF"/>
+    <circle cx="330" cy="110" r="4" fill="#D9F9FF"/>
+    <circle cx="621" cy="64" r="6" fill="#D9F9FF"/>
+    <circle cx="852" cy="238" r="4" fill="#D9F9FF"/>
+    <circle cx="412" cy="420" r="5" fill="#D9F9FF"/>
+  </g>
+</svg>
