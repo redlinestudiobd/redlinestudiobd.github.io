@@ -1,1 +1,4 @@
-google.com, pub-1688956700283449, DIRECT, f08c47fec0942fa0
+# app-ads.txt for RedLine Studio BD
+# Replace the line below with your real AdMob publisher ID after AdMob gives it to you.
+# Example format:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
