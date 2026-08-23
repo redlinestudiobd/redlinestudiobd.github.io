@@ -1,28 +1,17 @@
 # Redline Studio BD Website
 
-Professional GitHub Pages-ready website for Redline Studio BD.
+Deployment-ready static website for GitHub Pages.
 
-## What is included
+## Publish
 
-- `index.html` — homepage
-- `styles.css` — responsive professional styling
-- `script.js` — mobile menu and scroll animations
-- `app-ads.txt` — AdMob app-ads.txt file
-- `privacy.html` — privacy policy page
-- `assets/images/` — real Ice Crusher and Road Fight artwork/logos
+Upload every file and folder in this package to the root of the `redlinestudiobd.github.io` repository, replacing the existing website files. Keep the `assets` folder intact.
 
-## Upload to GitHub Pages
+The package includes:
 
-1. Open this folder.
-2. Upload all files and folders to your GitHub Pages repository root.
-3. Do not upload only the zip file.
-4. After upload, your website should open from:
-   `https://redlinestudiobd.github.io/`
-5. Confirm AdMob app-ads.txt opens from:
-   `https://redlinestudiobd.github.io/app-ads.txt`
+- Three released-game cards with verified Google Play links
+- Race Rush coming-soon presentation
+- Responsive desktop and mobile styling
+- Updated support and studio-wide privacy pages
+- SEO and social-sharing metadata
+- Existing `app-ads.txt`, robots, and sitemap files
 
-## Important links used
-
-- Ice Crusher Google Play: `https://play.google.com/store/apps/details?id=com.redlinestudio.icecrusher`
-- Support email: `support.redlinestudio@gmail.com`
-- app-ads.txt: `google.com, pub-1688956700283449, DIRECT, f08c47fec0942fa0`
