@@ -1,0 +1,12 @@
+REDLINE STUDIO BD — WEBSITE UPDATE
+
+This is an incremental update, not a complete standalone website.
+1. Review the five Terms of Service drafts for legal identity, consumer rights, actual features and purchases.
+2. Check Race Rush's public Google Play URL: https://play.google.com/store/apps/details?id=com.redlinestudio.racerush (package known from project context, public listing not independently verified).
+3. Back up the repository or create a branch. Upload the contents of this folder to repository root; keep the assets folder structure. Replace index.html, support.html and sitemap.xml; add Terms pages and assets/slide-and-solve.webp. Do not delete any existing files. Do not upload this instructions file if unwanted.
+4. The current privacy.html is deliberately not replaced: it names only Road Fight, Shipment Master, and Ice Crusher as examples. Review actual SDKs, analytics, ads, purchases, data handling and player rights for all five games before extending its scope.
+5. Existing homepage design is retained using assets/index-Hwi8wOhO.css and original four game assets and redline-logo.svg. Static HTML avoids loading the old generated JavaScript/hydration data that contained stale game statuses. No change to app-ads.txt, favicon.svg, existing og.png, styles.css, script.js, robots.txt or prior game images.
+6. After deploying, test mobile and desktop navigation, Play links, support/privacy/terms links and app-ads.txt. Existing OG image is unchanged; metadata text updated.
+7. Put each published game-specific Terms URL in Google Play Console after checking it opens publicly.
+
+No actual repository change or deployment has been made.
